@@ -23,11 +23,11 @@ header{
     /*background-color: aquamarine;*/
     background-color: white;
 }
-.div-instagram{
+.div-icones{
     width: 34px;
     height: 110px;
 
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 10%;
     transform: translate(-50%, -50%);
@@ -49,7 +49,7 @@ header{
     width: 135px;
     height: 145px;
 
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
