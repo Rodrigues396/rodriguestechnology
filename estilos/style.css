@@ -10,6 +10,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid #A8A8B3;
 }
 header{
     width: 376px;
@@ -20,8 +21,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /*background-color: aquamarine;*/
-    background-color: white;
+    border: 1px solid #A8A8B3;
 }
 .div-icones{
     width: 34px;
@@ -53,5 +53,16 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/*---------------------------------*/
+.sobreMim{
+    width: 376px;
+    height: 200px;
 
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #A8A8B3;
 }
