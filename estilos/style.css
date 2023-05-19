@@ -29,8 +29,6 @@ header{
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    border: 1px solid #A8A8B3;
 }
 .div-icones{
     width: 34px;
@@ -72,9 +70,6 @@ header{
     top: 176%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    border: 1px solid #A8A8B3;
-    background-color: aquamarine;
 }
 .div-sobreMim{
     width: 330px;
@@ -84,7 +79,6 @@ header{
     top: 50%;
     left: 56%;
     transform: translate(-50%, -50%);
-    background-color: brown;
 }
 .sobreMim h1{
     font-family: 'Manrope';
@@ -94,12 +88,49 @@ header{
     line-height: 25px;
     letter-spacing: -0.03em;
 }
+.div-sobreMim > p{
+    padding-top: 10px;
 
-.sobreMim p{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 28px;
-    letter-spacing: -0.03em;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.div-contact{
+    width: 135px;
+    height: 50px;
+
+    position: fixed;
+    top: 80%;
+    left: 20.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.button-contact{
+    width: 135px;
+    height: 50px;
+    padding-right: 30px;
+
+    position: fixed;
+    top: 50%;
+    left: 50.3%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: brown;
+
+    border-style: none;
+}
+.button-contact img{
+    width: 26px;
+    position: fixed;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.button-contact > p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;   
 }
