@@ -2,7 +2,7 @@ body{
     height: 1000px;
 }
 main{
-    background-color: #0000007a;
+    background-color: #00000000;
     width: 376px;
     height: 668px;
 
@@ -10,4 +10,48 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+header{
+    width: 376px;
+    height: 200px;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*background-color: aquamarine;*/
+    background-color: white;
+}
+.div-instagram{
+    width: 34px;
+    height: 110px;
+
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    /*background-color: crimson;*/
+}
+.div-perfil > img{
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.div-perfil{
+    width: 135px;
+    height: 145px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
