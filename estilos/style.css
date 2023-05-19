@@ -64,24 +64,27 @@ header{
     transform: translate(-50%, -50%);
 }
 /*---------------------------------*/
-.sobreMim{
+.info{
     width: 376px;
-    height: 200px;
+    height: 300px;
 
     position: fixed;
-    top: 150%;
+    top: 176%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     border: 1px solid #A8A8B3;
+    background-color: aquamarine;
 }
 .div-sobreMim{
-    width: 200px;
+    width: 330px;
+    height: 300px;
 
     position: fixed;
-    top: 36%;
-    left: 50%;
+    top: 50%;
+    left: 56%;
     transform: translate(-50%, -50%);
+    background-color: brown;
 }
 .sobreMim h1{
     font-family: 'Manrope';
