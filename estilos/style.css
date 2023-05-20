@@ -21,7 +21,7 @@ main{
     height: 2568px;
     
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #A8A8B3;
