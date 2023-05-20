@@ -17,7 +17,18 @@ body{
     height: 1000px;
 }
 main{
-    background-color: white;
+    width: 376px;
+    height: 2568px;
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #A8A8B3;
+
+}
+.sec_01{
+    background-color: aquamarine;
     width: 376px;
     height: 668px;
     
@@ -26,7 +37,6 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #A8A8B3;
-
 }
 header{
     width: 376px;
@@ -42,7 +52,7 @@ header{
     height: 60px;
 
     position: fixed;
-    top: -5%;
+    top: -8%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
