@@ -20,12 +20,13 @@ main{
     background-color: white;
     width: 376px;
     height: 668px;
-
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #A8A8B3;
+
 }
 header{
     width: 376px;
@@ -62,7 +63,7 @@ header{
     margin-bottom: 3px;
 }
 .div_icones i{
-    color: brown;
+    color: rgb(165, 42, 42);
     font-size: 2em;
 }
 .div-perfil > img{
@@ -161,16 +162,9 @@ header{
     color: black;
 }
 /*============================*/
-.sec-movel{
+/*.sec-movel{
     width: 376px;
-    height: 68px;
-
-    position: fixed;
-    bottom: -6%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    float: bottom;
+    height: 58px;
 
     background-color: blue;
-}
+}*/
