@@ -46,7 +46,6 @@ main{
     transform: translate(-50%, -50%);
     /* border: 1px solid #A8A8B3;*/
     background-color: #A52A2A;
-
 }
 .sec_01{
     width: 376px;
@@ -56,7 +55,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, #4A515B, #99B2B2);
     /*border: 1px solid #A8A8B3;*/
 }
 .logo{
@@ -161,7 +160,7 @@ header{
     left: 50.3%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    background-color: var(--cor1);
+    background-color: var(--cor0);
 
     border-style: none;
 }
@@ -189,7 +188,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     /*border: 1px solid #A8A8B3;*/
 }
 .contact{
