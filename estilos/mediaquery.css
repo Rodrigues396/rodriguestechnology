@@ -1,0 +1,11 @@
+@media screen and (max-height: 898px) and (max-width: 415px) and (min-height: 668px) and (min-width: 376px){
+    main, .sec_01, .sec_02{
+        width: 414px;
+    }
+    .sec_01{
+        top: 45%;
+    }
+    .sec_02{
+        top: 71%;
+    }
+}

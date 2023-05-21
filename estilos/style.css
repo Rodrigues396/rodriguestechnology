@@ -2,7 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
-
+:root{
+    --cor0: #A52A2A;
+    --cor1: #E6B76D;
+    --cor2: #CFD3B4;
+    --cor3: #99B2B2;
+    --cor4: #4A515B;
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -39,6 +45,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     /* border: 1px solid #A8A8B3;*/
+    background-color: #A52A2A;
 
 }
 .sec_01{
@@ -49,6 +56,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: var(--cor2);
     /*border: 1px solid #A8A8B3;*/
 }
 .logo{
@@ -86,7 +94,7 @@ header{
     margin-bottom: 3px;
 }
 .div_icones i{
-    text-shadow: 1px 2px  5px white;
+    /*text-shadow: 1px 2px  5px white;*/
     color: black;
     font-size: 2em;
 }
@@ -153,7 +161,7 @@ header{
     left: 50.3%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    background-color: brown;
+    background-color: var(--cor1);
 
     border-style: none;
 }
@@ -177,9 +185,11 @@ header{
     height: 668px;
     
     position: absolute;
-    top: 76.1%;
+    top: 76%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    background-color: var(--cor3);
     /*border: 1px solid #A8A8B3;*/
 }
 .contact{
@@ -203,7 +213,7 @@ header{
     padding-left: 30px;
 }
 .info_contact i{
-    color: #a52a2a;
+    color: var(--cor0);
 }
 .info_contact p{
     padding-left: 30px;
@@ -222,7 +232,7 @@ header{
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #A8A8B3;
+    background-color: var(--cor4);
 }
 .input_contact p{
     margin-left: 20px;
@@ -232,7 +242,7 @@ header{
     height: 40px;
     margin-left: 20px;
     border-style: none;
-    background-color: #A8A8B3;
+    background-color: var(--cor4);
 }
 .div-message{
     width: 340px;
@@ -240,7 +250,7 @@ header{
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #A8A8B3;
+    background-color: var(--cor4);
 }
 .div-message > input{
     height: 120px;
