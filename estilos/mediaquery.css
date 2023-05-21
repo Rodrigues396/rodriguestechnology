@@ -2,4 +2,7 @@
     main, .sec_01, .sec_02{
         width: 414px;
     }
+    .sec_01{
+        top: 45%;
+    }
 }
