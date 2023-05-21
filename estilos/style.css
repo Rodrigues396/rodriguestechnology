@@ -13,6 +13,20 @@ ul{
 a{
     text-decoration-style: none;
 }
+h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+}
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
 body{
     height: 1000px;
 }
@@ -115,22 +129,8 @@ header{
     left: 56%;
     transform: translate(-50%, -50%);
 }
-.sobreMim h1{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-}
 .div-sobreMim > p{
     padding-top: 10px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    
 }
 .div-contact{
     width: 135px;
@@ -180,4 +180,29 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #A8A8B3;
+}
+.contact{
+    margin-top: 20px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 1.8em;
+}
+.info_contact{
+    width: 376px;
+    height: 200px;  
+    font-size: 1.5em;
+    margin-top: 20px;
+
+    position: fixed;
+}
+.info_contact li{
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.info_contact i{
+    color: rgb(165, 42, 42);
+}
+.info_contact p{
+    padding-left: 30px;
 }
