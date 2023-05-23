@@ -66,6 +66,7 @@ main{
     transform: translate(-50%, -50%);
 }
 .logo > img{
+    filter: drop-shadow(0 0 0.1em rgb(0,0,0));
     width: 200px;
 }
 header{
@@ -99,7 +100,7 @@ header{
     width: 130px;
     height: 140px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid black;
 
     position: absolute;
     top: 50%;
