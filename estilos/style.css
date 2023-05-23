@@ -45,7 +45,6 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     /* border: 1px solid #A8A8B3;*/
-    background-color: #A52A2A;
 }
 .sec_01{
     width: 376px;
@@ -55,7 +54,6 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to top, #4A515B, #99B2B2);
     /*border: 1px solid #A8A8B3;*/
 }
 .logo{
@@ -188,7 +186,6 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: var(--cor2);
     /*border: 1px solid #A8A8B3;*/
 }
 .contact{
@@ -231,7 +228,7 @@ header{
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: var(--cor4);
+    background-color: var(--cor3);
 }
 .input_contact p{
     margin-left: 20px;
@@ -241,7 +238,7 @@ header{
     height: 40px;
     margin-left: 20px;
     border-style: none;
-    background-color: var(--cor4);
+    background-color: var(--cor3);
 }
 .div-message{
     width: 340px;
@@ -249,7 +246,7 @@ header{
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: var(--cor4);
+    background-color: var(--cor3);
 }
 .div-message > input{
     height: 120px;
