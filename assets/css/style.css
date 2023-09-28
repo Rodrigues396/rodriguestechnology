@@ -47,6 +47,9 @@ nav li{
     background-color: var(--cor02);
     margin: 0px 20px 0px 20px;
 }
+.cardSocial > h1, h2{
+    padding-left: 30px;
+}
 .elementos{
     display: grid;
     grid-template-columns: 0fr 2fr 0fr;
@@ -101,4 +104,29 @@ nav li{
 }
 .logoRodrigues p{
     color: var(--cor01);
+}
+/* SECTION */
+.sobreMim{
+    margin: 10px 20px 0px 20px;
+}
+.sobreMim h1{
+    text-align: center;
+    border-bottom: 5px solid var(--cor01);
+    margin: 0px 30px 0px 30px;
+}
+.sobreMim p{
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 25px;
+    display: flex;
+    height: 55px;
+}
+.buttons button{
+    height: 40px;
+    width: 145px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--cor01);
 }
