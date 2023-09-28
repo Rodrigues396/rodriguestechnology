@@ -129,4 +129,5 @@ nav li{
     border-radius: 10px;
     border-style: none;
     background-color: var(--cor01);
+    color: black;
 }
