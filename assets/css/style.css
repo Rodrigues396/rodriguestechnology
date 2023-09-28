@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+:root{
+    --cor00: #ffffff;
+    --cor01: #AA0014;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerMain{
+    background-color: var(--cor00);
+    min-width: 375px;
+    min-height: 667px;
+    height: 100vh;
+}
+header{
+    border: 1px solid black;
+    display: flex;
+    margin: 50px 20px 0px 20px;
+}
+.logoR{
+    background-color: #AA0014;
+    height: 50px;
+}
+.logoR img{
+    width: 82px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav li{
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+
