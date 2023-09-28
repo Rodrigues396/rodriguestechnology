@@ -50,12 +50,17 @@ nav li{
 .elementos{
     display: grid;
     grid-template-columns: 0fr 2fr 0fr;
+    padding-top: 10px;
 }
 .imgPerfil{
     height: 175px;
-    width: 100px;
+    width: 110px;
     grid-column-start: 1;
     /* border: 1px solid black;  */
+
+}
+.imgPerfil{
+    padding-left: 10px;
 }
 .redesSociais{ 
     grid-column-start: 2;
@@ -84,4 +89,16 @@ nav li{
     grid-column-start: 2;
     grid-row-start: 1;
     /* border: 1px solid black; */
+}
+.logoRodrigues div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.logoRodrigues div img{
+    width: 44px;
+}
+.logoRodrigues p{
+    color: var(--cor01);
 }
