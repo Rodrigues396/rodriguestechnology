@@ -52,15 +52,21 @@ nav ul{
     align-items: center;
 }
 /* SECTION */
+.cardSectionMargin{
+    margin: 17px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
 .cardSection{
     height: 265px;
     border-radius: 20px;
     background-color: var(--cor02);
-    margin: 17px auto 0px auto;
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    width: 100%;
 }
 .card{
     width: 100%;
@@ -70,7 +76,6 @@ nav ul{
 .cardInfo{
     display: grid;
     grid-template-columns: 0fr 2fr 0fr;
-    border: 1px solid black;
 }
 .cardPerfil{
     height: 100%;
