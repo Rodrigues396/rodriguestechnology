@@ -134,40 +134,48 @@ nav ul{
     margin-left: 10%;
     max-width: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* SECTION */
-.sobreMim{
-    margin: 10px 20px 0px 20px;
+/* SECTION INFO */
+.cardSectionInfo{
+    height: 246px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.sobreMim h1{
+.divFront{
     text-align: center;
     border-bottom: 5px solid var(--cor01);
     margin: 0px 30px 0px 30px;
 }
-.sobreMim p{
-    margin-top: 10px;
+.divP{
+    margin-top: 15px;
+    max-width: 550px;
+    height: 100px;
 }
-.buttons{
+.divButtons{
+    width: 100%;
+    max-width: 550px;
     margin-top: 25px;
     display: flex;
     height: 55px;
+    justify-content: space-between;
 }
-.buttons button{
+.divButtons button{
     height: 40px;
     width: 145px;
-    margin-top: 8px;
     border-radius: 10px;
     border-style: none;
     background-color: var(--cor01);
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divButtons button img{
+    margin-left: 10px;
+    height: 20px;
+}
+.divImg{
+    margin-right: 10px;
 }
