@@ -1,0 +1,78 @@
+
+/* Container Skils */
+.containerSkils{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .cardSkilsTitel{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100px;
+     width: 323px;
+ }
+ .cardSkilsInfo{
+     margin-top: 20px;
+     max-width: 600px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .cardSkil{
+     width: 100%;
+     margin: 10px 20px 20px 20px;
+     border-radius: 4px;
+     display: flex;
+     justify-content: center;
+     background-color: var(--cor01);
+ }
+ .cardSkils{
+     margin: 10px 20px 20px 20px;
+     width: 100%;
+     max-width: 450px;
+     height: 334px;
+     display: grid;
+     grid-template-columns: repeat(3, auto);
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ .skil{
+     width: 84px;
+     height: 93px;
+     border-radius: 10px;
+     background-color: var(--cor00);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .skil img{
+     margin-top: 5px;
+     height: 50px;
+ }
+ .cardSkilLogo{
+     margin-top: 25px;
+     width: 324px;
+     height: 55px;
+     display: flex;
+     justify-content: center;
+     font-size: 0.8em;
+ }
+ .cardlogo{
+     display: flex;
+     align-items: center;
+ }
+ .cardlogo img{
+     height: 44px;
+ }
+ .cardlogoName{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .cardlogoName p{
+     color: var(--cor01);
+ }

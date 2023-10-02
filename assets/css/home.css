@@ -1,23 +1,3 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
-:root{
-    --cor00: #ffffff;
-    --cor01: #AA0014;
-    --cor02: #D9D9D9;
-    --cor03: #1B1818;
-    --cor04: #6F1D1D;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-    /* border: 1px solid black; */
-}
-main{
-    background-color: var(--cor00);
-    min-width: 375px;
-    min-height: 667px;
-    height: 100vh;
-}
 /* .containerHome{
     background-color: var(--cor00);
 } */
@@ -26,17 +6,17 @@ header{
     display: flex;
     justify-content: center;
 }
-.divHeader{
+.headerHome{
     min-width: 340px;
     max-width: 900px;
     width: 100%;
     display: flex;
     margin: 45px 20px 0px 20px;
 }
-.divHeader .icon{
+.headerIcon{
     height: 50px;
 }
-.divHeader .icon img{
+.headerIcon img{
     width: 82px;
     margin-top: -15px;
 }
@@ -57,7 +37,7 @@ nav ul{
     align-items: center;
 }
 /* SECTION */
-.cardSectionMargin{
+.cardSectionHome{
     margin: 17px auto 0px auto;
     display: flex;
     justify-content: center;
@@ -78,21 +58,21 @@ nav ul{
     margin: 10px;
     /* max-width: 600px; */
 }
-/* mudar para flex */
-.cardInfo{
-    display: grid;
-    grid-template-columns: 0fr 2fr 0fr;
-}
 .cardPerfil{
+    display: flex; 
+}
+.cardInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cardImgPerfil{
     height: 100%;
     width: 110px;
-    grid-column-start: 1;
     display: flex;
     justify-content: center;
 }
-.cardIcons{ 
-    grid-column-start: 2;
-    grid-row-start: 1;
+.cardIcons{
     display: flex;
     justify-content: center;
     height: 50px;
@@ -110,17 +90,15 @@ nav ul{
     color: var(--cor01);
 }
 .cardLogo{
-    margin-top: 50px;
-    grid-column-start: 2;
-    grid-row-start: 1;
+    height: 100%;
 }
-.cardLogo div{
+.cardLogoImg{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
-.cardLogo div img{
+.cardLogoImg img{
     width: 57px;
     height: 44px;
 }
@@ -178,83 +156,4 @@ nav ul{
 }
 .divImg{
     margin-right: 10px;
-}
-/* Container Skils */
-/* ARRUMAR O NOME DAS DIVS */
-.containerSliks{
-   /* background-color: var(--cor00); */
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-}
-.cardTitleSkils{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 323px;
-}
-.cardInfoSkils{
-    margin-top: 20px;
-    max-width: 600px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.divTeste{
-    width: 100%;
-    margin: 10px 20px 20px 20px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    background-color: var(--cor01);
-}
-.cardSkils{
-    margin: 10px 20px 20px 20px;
-    width: 100%;
-    max-width: 450px;
-    height: 334px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.skil{
-    width: 84px;
-    height: 93px;
-    border-radius: 10px;
-    background-color: var(--cor00);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.skil img{
-    margin-top: 5px;
-    height: 50px;
-}
-.cardLogoSkils{
-    margin-top: 25px;
-    width: 324px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    font-size: 0.8em;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    height: 44px;
-}
-.logoName{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.logoName p{
-    color: var(--cor01);
 }
