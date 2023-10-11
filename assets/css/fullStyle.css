@@ -16,7 +16,7 @@
 main{
     background-color: var(--cor00);
     min-width: 375px;
-    min-height: 667px;
+    /* min-height: 667px; */
     height: 100vh;
 }
 @media screen and (min-width: 411px) and (min-height: 896px){
