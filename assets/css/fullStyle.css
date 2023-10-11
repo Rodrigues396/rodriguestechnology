@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 main{
-    background-color: var(--cor03);
+    background-color: var(--cor00);
     min-width: 375px;
     /* min-height: 667px; */
     height: 100vh;
