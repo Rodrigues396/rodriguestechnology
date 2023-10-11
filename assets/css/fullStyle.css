@@ -19,26 +19,6 @@ main{
     /* min-height: 667px; */
     height: 100vh;
 }
-@media screen and (min-width: 411px) and (min-height: 896px){
-    .containerHome{
-        background-color: var(--cor03);
-    }
-    header{
-        flex-grow: 0;
-        height: 100px;
-        color: var(--cor00);
-        /* background-color: #6F1D1D; */
-    }
-    .cardSectionHome{
-        height: 300px;
-        /* background-color: #6F1D1D; */
-        flex-grow:0;
-    }
-    .cardSectionInfo{ 
-        height: 300px;
-        color: var(--cor00);
-        /* background-color: #6F1D1D; */
-        flex-grow: 0;
-    }
-}
+/* @media screen and (min-width: 411px) and (min-height: 896px){
+} */
 
