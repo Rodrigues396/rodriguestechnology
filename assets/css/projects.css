@@ -3,7 +3,7 @@
     justify-content: space-between;
     height: 100vh;
 }
-.containerProjects > h1{
+.containerProjects > h2{
     margin-top: 50px;
  }
 .cardProjects{
