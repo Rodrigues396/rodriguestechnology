@@ -6,19 +6,34 @@
     --cor03: #1B1818;
     --cor04: #6F1D1D;
     /* --cor05: #E6B76D; */
+    --cor06: #010409;
 }
 *{
     margin: 0px;
     padding: 0px;
-    /* border: 1px solid black; */
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 main{
     background-color: var(--cor00);
     min-width: 375px;
-    /* min-height: 667px; */
     height: 100vh;
+    display: block;
 }
-/* @media screen and (min-width: 411px) and (min-height: 896px){
-} */
+.containerCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 411px) and (min-height: 600px){
+    header{
+        height: 100px;
+    }
+    .cardSectionHome{
+        height: 300px;
+    }
+    .containerInfo{ 
+        height: 300px;
+    }
+}
 
